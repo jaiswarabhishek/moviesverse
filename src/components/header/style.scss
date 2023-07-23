@@ -45,10 +45,12 @@
        
          
         .title {
+
+
                 font-family: 'Playfair Display', serif;
                 letter-spacing: 0.2em;
                 
-                font-size: 2em;
+                font-size: 1.4em;
                 color: white;
                 // background: #A076F9;
                 padding: 0.2em;
@@ -57,7 +59,14 @@
                 cursor: pointer;
                 font-weight: 300;
                 text-shadow: 0px 5px 5px #234D3C;
+
+                @include md {
+                    font-size: 2em;
+                }
             }
+
+            // in mobile size decrese
+            
 
         img {
             height: 50px;
